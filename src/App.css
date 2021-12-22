@@ -1,38 +1,207 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* GLOBALES */
+
+body{
+  font-family: 'Space Mono', monospace;
+  font-weight: 400, 500, 700;
+  font-size: 24px;
+  background-color: hsl(185, 41%, 84%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  font-family: 'Space Mono', monospace;
+  font-weight: 400, 500, 700;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/* INDIVIDUALES */
+
+.Logo{
+  margin-left: 55%;
+  margin-right: 55%;
+  margin-top: 10%;
+}
+
+
+.Calculadora{
+  width: 95%;
+  margin-left: 15%;
+  background-color: white;
+  border-radius: 30px;
+  display: grid;
+  grid-auto-rows: 615px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+.Pay{
+  display: grid;
+  grid-auto-rows: 65px;
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  margin: auto;
+  margin-top: 15%;
+
+}
+
+.BillAmount{
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 7px;
+  width: 289px;
+  height: 75%;
+  margin-top: 1px;
+}
+
+.Bill{
+  border: none;
+  background: none;
+  margin-left: 20%;
+}
+
+.LabelBill{
+  margin-top: 1px;
+}
+
+.Tips{
+  display: grid;
+  grid-auto-rows: 35px;
+  grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+}
+
+
+.NumberPeople{
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 7px;
+  width: 289px;
+  height: 75%;
+  margin-top: 92px;
+}
+
+.LabelPeople{
+  margin-top: 90px;
+}
+
+.UsdIcon{
+  margin-left: 9px;
+}
+
+.People{
+  border: none;
+  background: none;
+  margin-left: 20%;
+}
+
+.PeopleIcon{
+  margin-left: 7px;
+}
+
+
+
+.TipBill{
+  margin: auto;
+  display: grid;
+  grid-auto-rows: 160px;
+  margin-top: 70px;
+}
+
+.TipAmount{
+  display: grid;
+  grid-auto-rows: 195px;
+  grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+  margin-bottom: 1px;
+  
+}
+
+.TipAmount span{
+  margin-left: 187px;
+}
+
+.TextTip{
+  display: grid;
+  grid-auto-rows: 31px;
+  margin-left: 37%;
+}
+
+.Total{
+  display: grid;
+  grid-auto-rows: 95px;
+  grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+  margin-top: 1px;
+  margin-bottom: 15px;
+}
+
+
+.TextTotal{
+  display: grid;
+  grid-auto-rows: 0.01px;
+  margin-left: 37%;
+}
+
+.Total span{
+  margin-left: 187px;
+  margin-bottom: 22%;
+}
+
+.BotonReset{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 26%;
+  margin-bottom: 10%;
+}
+
+.LabelTips{
+  margin-top: 3px;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+  color: hsl(228, 45%, 44%);
+  margin-top: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Calculadora{
+    margin: 0;
+    width: 132%;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    grid-auto-rows: 615px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
